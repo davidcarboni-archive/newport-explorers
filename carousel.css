@@ -53,10 +53,9 @@ body {
   background-color: #777;
 }
 .carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
+  position: relative;
+  margin: 0 auto;
+  min-width: 50%;
   height: 500px;
 }
 
@@ -76,6 +75,8 @@ body {
   margin-right: 10px;
   margin-left: 10px;
 }
+
+
 
 
 /* Featurettes
@@ -98,9 +99,9 @@ body {
 
 @media (min-width: 768px) {
   /* Navbar positioning foo */
-  .navbar-wrapper {
+  /*.navbar-wrapper {
     margin-top: 20px;
-  }
+  }*/
   .navbar-wrapper .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -132,3 +133,6 @@ body {
     margin-top: 120px;
   }
 }
+
+
+
